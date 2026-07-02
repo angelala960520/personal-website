@@ -1,17 +1,72 @@
-# Personal Website
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+}
 
-這是我的個人履歷網站，也是我的第一個正式 GitHub 作品。
+main {
+  max-width: 760px;
+  margin: 60px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 8px;
+}
 
-## 內容
+h1 {
+  color: #1f2937;
+  margin-top: 0;
+}
 
-- 自我介紹
-- 技能列表
-- 作品列表
-- 聯絡方式
+h2 {
+  margin-top: 32px;
+  color: #2563eb;
+}
 
-## 使用技術
+h3 {
+  margin-bottom: 8px;
+}
 
-- HTML
-- CSS
-- Git
-- GitHub
+ul {
+  padding-left: 24px;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  margin-top: 16px;
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.project p {
+  margin: 8px 0;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  main {
+    margin: 24px 12px;
+    padding: 24px;
+  }
+}
