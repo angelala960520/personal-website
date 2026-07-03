@@ -31,6 +31,20 @@ A personal resume and portfolio website built with HTML and CSS, and published w
 - Repository: https://github.com/angelala960520/personal-website
 - Tech: HTML, CSS, GitHub Pages
 
+### Street-cruise-game
+
+A browser-based car obstacle dodging game built with HTML, CSS, and JavaScript.
+
+- Repository: https://github.com/angelala960520/Street-cruise-game
+- Tech: html
+
+### Leetcode-Progress
+
+A daily record of my LeetCode practice
+
+- Repository: https://github.com/angelala960520/Leetcode-Progress
+- Tech: c++
+
 ## Technologies
 
 - HTML
